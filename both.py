@@ -26,7 +26,7 @@ if __name__ == "__main__":
 		print "    "
 		print "    both ping google.com ++ echo Hello world!"
 		print "    "
-		print "    both pandoc --to=html from=markdown --data-dir=md ++ mv *.html *.php"
+		print "    both python -m SimpleHTTPServer ++ cmd"
 		
 		sys.exit(0)
 
